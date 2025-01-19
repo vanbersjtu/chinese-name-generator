@@ -1,0 +1,23 @@
+{
+  "name": "chinese-name-generator",
+  "version": "1.0.0",
+  "description": "A web application that generates meaningful Chinese names from English names",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [
+    "chinese",
+    "name",
+    "generator",
+    "translation",
+    "culture"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode-generator": "^1.4.4",
+    "serve": "^14.0.0"
+  }
+}

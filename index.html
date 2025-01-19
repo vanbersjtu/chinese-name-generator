@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Name Generator</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Chinese Name Generator</h1>
+        <p>Discover your meaningful Chinese name with cultural interpretation</p>
+    </header>
+
+    <main>
+        <!-- Name Input Section -->
+        <section class="input-section">
+            <form id="nameForm">
+                <div class="input-group">
+                    <label for="englishName">Enter your English name:</label>
+                    <input type="text" id="englishName" name="englishName" 
+                           placeholder="e.g., Michael" required>
+                    <button type="submit">Generate Names</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results-section" id="results">
+            <!-- Results will be dynamically inserted here -->
+        </section>
+
+        <!-- Name Card Template -->
+        <template id="nameCardTemplate">
+            <div class="name-card">
+                <h2 class="chinese-name"></h2>
+                <p class="pinyin"></p>
+                <div class="interpretation">
+                    <h3>Meaning</h3>
+                    <p class="meaning"></p>
+                    <h3>Cultural Significance</h3>
+                    <p class="cultural"></p>
+                    <h3>Character Analysis</h3>
+                    <div class="characters"></div>
+                </div>
+                <button class="save-button">Save This Name</button>
+            </div>
+        </template>
+    </main>
+
+    <footer>
+        <p>Created with ❤️ to bridge cultural understanding</p>
+    </footer>
+
+    <script src="scripts/nameGenerator.js"></script>
+</body>
+</html>
